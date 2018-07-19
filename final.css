@@ -1,0 +1,68 @@
+
+/* responsive design for mobile devices with screen larger than 320px but lesser than 480px */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+	main {
+		flex-grow: 1;
+	}
+
+	.hero article h2{
+  		font-size: 1.8em;
+	}
+
+	.hero article p{
+	  font-size: 1.3em;
+	}
+
+	.news__title, .top-news__item a {
+		font-size: 1.2em;
+	}
+
+	.scores {
+		width: 100%;
+		display: flex;
+		overflow-x: auto;
+		flex-grow: 5;
+		font-size: 1.3em;
+	}
+
+	.recent-news ul{
+		display: -webkit-flex;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.snippet__thumbnail{
+		width: 100%;
+		display: block;
+		position: center;
+		margin: 0;
+	}
+
+	.snippet__title {
+		font-weight: 800;
+		display: block;
+		width: 100%;
+		font-size: 1.5em;
+		margin:1em;
+		text-align: left;
+	}
+
+	.snippet p {
+		text-align: justify;
+		line-height: 1.2em;
+		font-size: 1em;
+	}
+
+	footer li {
+	  display: inline-block;
+	  margin:0;
+	  min-width: 48px;
+	  max-height: 48px;
+	}
+
+	footer li a {
+	  font-size: 0.95em;
+	}
+
+}
